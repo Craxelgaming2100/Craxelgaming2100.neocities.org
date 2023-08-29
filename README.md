@@ -4,5 +4,5 @@ My website but open-source...
 - [x] Main files
 - [x] Game files
 - [ ] "fun" folder
-- [ ] "data" folder (favicon)
+- [x] "data" folder (favicon)
 - [ ] "memes" folder :trollface:
