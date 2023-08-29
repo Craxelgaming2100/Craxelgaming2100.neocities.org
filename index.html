@@ -31,8 +31,15 @@
     <p>Check out my <a href="fun/dvdtext">DVD Screensaver</a> page!</p>
     
 <label for="pageprogress">Updating Site progress:</label>
-<progress id="pageprogress" value="60" max="100"> 60% </progress>
-<p>60% Complete</p>
+<progress id="pageprogress" value="70" max="100"> 70% </progress>
+<p>70% Complete</p>
+
+<p>Want to see the date and time? Click this button!</p>
+<button type="button"
+onclick="document.getElementById('date').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="date"></p>
 
     
   </body>
