@@ -6,4 +6,5 @@ My website but open-source...
 - [x] "fun" folder
 - [x] "data" folder (favicon)
 - [x] "memes" folder :trollface:
-Everything is done! :tada:
+
+***Everything is done! :tada:***
