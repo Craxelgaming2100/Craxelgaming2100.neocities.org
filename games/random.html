@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Game</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+    <body onload="openLink();">
+<p>Redricting to random game...</p>
+
+<p>If it dosen't redirect, click the button.</p>
+
+<button onclick="openLink()">Redirect</button>
+
+<script type="text/javascript">
+<!--
+// Create an array of the links to choose from:
+var links = new Array();
+links[0] = "https://craxelgaming2100.neocities.org/games/pacmangame";
+links[1] = "https://craxelgaming2100.neocities.org/games/numberguess";
+links[2] = "https://craxelgaming2100.neocities.org/games/numberguessmed";
+links[3] = "https://craxelgaming2100.neocities.org/games/numberguesshard";
+links[4] = "https://craxelgaming2100.neocities.org/games/dice";
+links[5] = "https://craxelgaming2100.neocities.org/games/snake";
+
+function openLink() {
+  // Chooses a random link:
+  var i = Math.floor(Math.random() * links.length);
+  // Directs the browser to the chosen target:
+  parent.location = links[i];
+  return false;
+}
+//-->
+</script>
+
+  </body>
+</html>
